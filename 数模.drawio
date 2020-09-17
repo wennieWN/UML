@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-17T11:22:51.058Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="TUNDgM1KudsmqNh1RgWG" version="13.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-17T11:23:57.886Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="cvUXiXvLyifdkG2ORRYp" version="13.6.10" type="github">
   <diagram id="pTkaRg3z5hCBJYmHVtNs" name="Page-1">
     <mxGraphModel dx="786" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,6 +24,9 @@
         </mxCell>
         <mxCell id="clMP0sBCgT8EzZgTwloC-5" value="确定样本数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="100" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="clMP0sBCgT8EzZgTwloC-13" value="全部空值的数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="150" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
