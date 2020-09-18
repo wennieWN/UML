@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2020-09-17T11:30:23.985Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="sCsGFrsLVyyyVB8o-LCs" version="13.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-18T05:06:51.227Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="Pdcx42S7WNn7aUe2WtEN" version="13.6.10" type="github">
   <diagram id="pTkaRg3z5hCBJYmHVtNs" name="Page-1">
-    <mxGraphModel dx="786" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="786" dy="465" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="clMP0sBCgT8EzZgTwloC-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="clMP0sBCgT8EzZgTwloC-1" target="clMP0sBCgT8EzZgTwloC-4">
+        <mxCell id="clMP0sBCgT8EzZgTwloC-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="clMP0sBCgT8EzZgTwloC-1" target="clMP0sBCgT8EzZgTwloC-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="65" as="targetPoint" />
             <Array as="points">
@@ -13,57 +13,57 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="clMP0sBCgT8EzZgTwloC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="clMP0sBCgT8EzZgTwloC-1" target="clMP0sBCgT8EzZgTwloC-5">
+        <mxCell id="clMP0sBCgT8EzZgTwloC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="clMP0sBCgT8EzZgTwloC-1" target="clMP0sBCgT8EzZgTwloC-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="clMP0sBCgT8EzZgTwloC-1" value="分析问题与数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="clMP0sBCgT8EzZgTwloC-1" value="分析问题与数据" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="110" y="80" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="clMP0sBCgT8EzZgTwloC-4" value="数据预处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="clMP0sBCgT8EzZgTwloC-4" value="数据预处理" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="320" y="60" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="clMP0sBCgT8EzZgTwloC-5" value="确定样本数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="clMP0sBCgT8EzZgTwloC-5" value="确定样本数据" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="320" y="100" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="clMP0sBCgT8EzZgTwloC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="clMP0sBCgT8EzZgTwloC-13" target="clMP0sBCgT8EzZgTwloC-24">
+        <mxCell id="clMP0sBCgT8EzZgTwloC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="clMP0sBCgT8EzZgTwloC-13" target="clMP0sBCgT8EzZgTwloC-24">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="165" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="clMP0sBCgT8EzZgTwloC-13" value="全部空值的数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="clMP0sBCgT8EzZgTwloC-13" value="全部空值的数据" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="110" y="130" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="clMP0sBCgT8EzZgTwloC-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="clMP0sBCgT8EzZgTwloC-17" target="clMP0sBCgT8EzZgTwloC-24">
+        <mxCell id="clMP0sBCgT8EzZgTwloC-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="clMP0sBCgT8EzZgTwloC-17" target="clMP0sBCgT8EzZgTwloC-24">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="235" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="clMP0sBCgT8EzZgTwloC-17" value="缺失程度高于50%的数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="clMP0sBCgT8EzZgTwloC-17" value="缺失率高于30%的数据" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="110" y="180" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="clMP0sBCgT8EzZgTwloC-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="clMP0sBCgT8EzZgTwloC-20" target="clMP0sBCgT8EzZgTwloC-23">
+        <mxCell id="clMP0sBCgT8EzZgTwloC-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="clMP0sBCgT8EzZgTwloC-20" target="clMP0sBCgT8EzZgTwloC-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="clMP0sBCgT8EzZgTwloC-20" value="此时包含缺失值的数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="clMP0sBCgT8EzZgTwloC-20" value="缺失率不高于30%的数据" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="110" y="230" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="clMP0sBCgT8EzZgTwloC-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="clMP0sBCgT8EzZgTwloC-21" target="clMP0sBCgT8EzZgTwloC-23">
+        <mxCell id="clMP0sBCgT8EzZgTwloC-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="clMP0sBCgT8EzZgTwloC-21" target="clMP0sBCgT8EzZgTwloC-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="clMP0sBCgT8EzZgTwloC-21" value="不在正常范围内的的数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="clMP0sBCgT8EzZgTwloC-21" value="不在正常范围内的的数据" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="110" y="280" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="clMP0sBCgT8EzZgTwloC-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="clMP0sBCgT8EzZgTwloC-22" target="clMP0sBCgT8EzZgTwloC-23">
+        <mxCell id="clMP0sBCgT8EzZgTwloC-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="clMP0sBCgT8EzZgTwloC-22" target="clMP0sBCgT8EzZgTwloC-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="clMP0sBCgT8EzZgTwloC-22" value="包含粗大误差的的数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="clMP0sBCgT8EzZgTwloC-22" value="包含粗大误差的的数据" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="110" y="330" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="clMP0sBCgT8EzZgTwloC-23" value="使用操作变量的代表性属性替代" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="280" width="120" height="30" as="geometry" />
+        <mxCell id="clMP0sBCgT8EzZgTwloC-23" value="最可能值填充法" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="323" y="280" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="clMP0sBCgT8EzZgTwloC-24" value="剔除该操作变量" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="156" width="120" height="30" as="geometry" />
+        <mxCell id="clMP0sBCgT8EzZgTwloC-24" value="忽略元组法" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="323" y="156" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
