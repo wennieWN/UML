@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-18T11:17:36.657Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="3upp7Onkld3XwnAcfo-k" version="13.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-18T11:17:54.860Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="0UV68HwbcqZRZMRO4DrY" version="13.6.10" type="github">
   <diagram id="_Q-staNZqc-0YdLxZABd" name="Page-1">
     <mxGraphModel dx="786" dy="465" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -45,13 +45,13 @@
           <mxGeometry x="323" y="391" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LoXzKUArhXCIN91ybTbm-17" value="评价特征与辛烷值损失的相关性，获得预选主要变量池" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="323" y="231" width="120" height="60" as="geometry" />
+          <mxGeometry x="323" y="231" width="124" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LoXzKUArhXCIN91ybTbm-19" value="空值" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="323" y="110" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LoXzKUArhXCIN91ybTbm-20" value="降低特征与特征的相关性，获得若干组预选主要变量" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="323" y="306" width="120" height="60" as="geometry" />
+          <mxGeometry x="323" y="306" width="125" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LoXzKUArhXCIN91ybTbm-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LoXzKUArhXCIN91ybTbm-21" target="LoXzKUArhXCIN91ybTbm-23">
           <mxGeometry relative="1" as="geometry" />
