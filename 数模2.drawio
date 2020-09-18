@@ -1,1 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2020-09-18T05:07:14.612Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" version="13.6.10" etag="wGL1i6EFVQwJ8La0kU4v" type="github"><diagram id="_Q-staNZqc-0YdLxZABd">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-18T05:20:44.279Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="_tVrpqbKC3HtDHtVnghJ" version="13.6.10" type="github">
+  <diagram id="_Q-staNZqc-0YdLxZABd" name="Page-1">
+    <mxGraphModel dx="786" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LoXzKUArhXCIN91ybTbm-7" value="特征预处理" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="110" y="110" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LoXzKUArhXCIN91ybTbm-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="LoXzKUArhXCIN91ybTbm-9" target="LoXzKUArhXCIN91ybTbm-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoXzKUArhXCIN91ybTbm-9" value="基于随机森林的特征排序" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="110" y="180" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LoXzKUArhXCIN91ybTbm-11" value="距离相关系数法" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="110" y="260" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LoXzKUArhXCIN91ybTbm-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="LoXzKUArhXCIN91ybTbm-13" target="LoXzKUArhXCIN91ybTbm-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LoXzKUArhXCIN91ybTbm-13" value="高斯过程回归" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="110" y="350" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LoXzKUArhXCIN91ybTbm-16" value="最可能值填充法" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="323" y="350" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LoXzKUArhXCIN91ybTbm-17" value="根据特征与辛烷值损失的相关性，获得预选主要变量池" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="323" y="160" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LoXzKUArhXCIN91ybTbm-19" value="删除具有干扰的特征" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="323" y="110" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LoXzKUArhXCIN91ybTbm-20" value="根据特征与辛烷值损失的相关性，获得预选主要变量池" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="323" y="250" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LoXzKUArhXCIN91ybTbm-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LoXzKUArhXCIN91ybTbm-21" target="LoXzKUArhXCIN91ybTbm-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LoXzKUArhXCIN91ybTbm-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LoXzKUArhXCIN91ybTbm-21" target="LoXzKUArhXCIN91ybTbm-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LoXzKUArhXCIN91ybTbm-21" value="问题分析：特征降维" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="110" y="40" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LoXzKUArhXCIN91ybTbm-22" value="降低特征与特征的相关性" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="323" y="62.5" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LoXzKUArhXCIN91ybTbm-23" value="保持特征与辛烷值损失的相关性" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="323" y="17.5" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
