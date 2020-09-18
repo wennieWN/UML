@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-18T05:22:43.353Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="2pIAIgqcGfBYM3DzhHO3" version="13.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-18T05:24:47.164Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="Akt28xnh9syVT-ESGoJd" version="13.6.10" type="github">
   <diagram id="_Q-staNZqc-0YdLxZABd" name="Page-1">
     <mxGraphModel dx="786" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,25 +22,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LoXzKUArhXCIN91ybTbm-11" value="距离相关系数法" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="110" y="260" width="140" height="30" as="geometry" />
+          <mxGeometry x="110" y="255" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LoXzKUArhXCIN91ybTbm-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="LoXzKUArhXCIN91ybTbm-13" target="LoXzKUArhXCIN91ybTbm-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LoXzKUArhXCIN91ybTbm-13" value="高斯过程回归" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="110" y="350" width="140" height="30" as="geometry" />
+          <mxGeometry x="110" y="325" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LoXzKUArhXCIN91ybTbm-16" value="最可能值填充法" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="323" y="350" width="120" height="30" as="geometry" />
+        <mxCell id="LoXzKUArhXCIN91ybTbm-16" value="确定主要变量" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="323" y="325" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LoXzKUArhXCIN91ybTbm-17" value="根据特征与辛烷值损失的相关性，获得预选主要变量池" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="323" y="160" width="120" height="70" as="geometry" />
+          <mxGeometry x="323" y="165" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LoXzKUArhXCIN91ybTbm-19" value="删除具有干扰的特征" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="323" y="110" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LoXzKUArhXCIN91ybTbm-20" value="根据特征与特征的相关性，获得预选主要变量池" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="323" y="240" width="120" height="70" as="geometry" />
+        <mxCell id="LoXzKUArhXCIN91ybTbm-20" value="根据特征与特征的相关性，获得若干组预选主要变量" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="323" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LoXzKUArhXCIN91ybTbm-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LoXzKUArhXCIN91ybTbm-21" target="LoXzKUArhXCIN91ybTbm-23">
           <mxGeometry relative="1" as="geometry" />
