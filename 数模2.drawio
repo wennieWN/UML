@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2020-09-19T15:34:04.746Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="VPHMi2lhjN_WyAPdB-0c" version="13.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-19T15:37:47.363Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="O5jk5Cne-6UNEjRMDYlc" version="13.6.10" type="github">
   <diagram id="_Q-staNZqc-0YdLxZABd" name="Page-1">
-    <mxGraphModel dx="786" dy="465" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="925" dy="547" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="LoXzKUArhXCIN91ybTbm-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LoXzKUArhXCIN91ybTbm-7" target="LoXzKUArhXCIN91ybTbm-19">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="418" y="177" />
-              <mxPoint x="418" y="139" />
+              <mxPoint x="519" y="208" />
+              <mxPoint x="519" y="170" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -18,40 +18,52 @@
         <mxCell id="LoXzKUArhXCIN91ybTbm-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LoXzKUArhXCIN91ybTbm-7" target="LoXzKUArhXCIN91ybTbm-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="LoXzKUArhXCIN91ybTbm-44" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LoXzKUArhXCIN91ybTbm-7" target="LoXzKUArhXCIN91ybTbm-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LoXzKUArhXCIN91ybTbm-45" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LoXzKUArhXCIN91ybTbm-7" target="LoXzKUArhXCIN91ybTbm-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="LoXzKUArhXCIN91ybTbm-7" value="特征预处理" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="240" y="162" width="140" height="30" as="geometry" />
+          <mxGeometry x="343" y="193" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LoXzKUArhXCIN91ybTbm-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="LoXzKUArhXCIN91ybTbm-9" target="LoXzKUArhXCIN91ybTbm-17">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="450" y="315" as="targetPoint" />
+            <mxPoint x="661" y="338" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="LoXzKUArhXCIN91ybTbm-46" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LoXzKUArhXCIN91ybTbm-9" target="LoXzKUArhXCIN91ybTbm-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="LoXzKUArhXCIN91ybTbm-9" value="基于提升树的特征重要性排序" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="240" y="260" width="140" height="30" as="geometry" />
+          <mxGeometry x="451" y="283" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LoXzKUArhXCIN91ybTbm-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LoXzKUArhXCIN91ybTbm-11" target="LoXzKUArhXCIN91ybTbm-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="LoXzKUArhXCIN91ybTbm-48" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LoXzKUArhXCIN91ybTbm-11" target="LoXzKUArhXCIN91ybTbm-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="LoXzKUArhXCIN91ybTbm-11" value="“链式”距离相关系数法" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="240" y="340" width="140" height="30" as="geometry" />
+          <mxGeometry x="451" y="363" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LoXzKUArhXCIN91ybTbm-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;" edge="1" parent="1" source="LoXzKUArhXCIN91ybTbm-13" target="LoXzKUArhXCIN91ybTbm-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LoXzKUArhXCIN91ybTbm-13" value="Adaboost回归模型" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="242" y="420" width="140" height="30" as="geometry" />
+          <mxGeometry x="343" y="451" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LoXzKUArhXCIN91ybTbm-16" value="确定主要变量" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="455" y="420" width="120" height="30" as="geometry" />
+          <mxGeometry x="556" y="451" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LoXzKUArhXCIN91ybTbm-17" value="评价特征与辛烷值损失的相关性，获得预选主要变量池" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="453" y="245" width="124" height="60" as="geometry" />
+          <mxGeometry x="664" y="268" width="124" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LoXzKUArhXCIN91ybTbm-19" value="空值" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="455" y="124" width="120" height="30" as="geometry" />
+          <mxGeometry x="556" y="155" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LoXzKUArhXCIN91ybTbm-20" value="降低特征与特征的相关性，获得若干组预选主要变量" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="453" y="325" width="125" height="60" as="geometry" />
+          <mxGeometry x="664" y="348" width="125" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LoXzKUArhXCIN91ybTbm-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LoXzKUArhXCIN91ybTbm-21" target="LoXzKUArhXCIN91ybTbm-23">
           <mxGeometry relative="1" as="geometry" />
@@ -59,44 +71,35 @@
         <mxCell id="LoXzKUArhXCIN91ybTbm-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LoXzKUArhXCIN91ybTbm-21" target="LoXzKUArhXCIN91ybTbm-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="LoXzKUArhXCIN91ybTbm-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LoXzKUArhXCIN91ybTbm-21" target="LoXzKUArhXCIN91ybTbm-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="LoXzKUArhXCIN91ybTbm-21" value="问题分析：特征降维" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="242" y="67.5" width="140" height="30" as="geometry" />
+          <mxGeometry x="343" y="98.5" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LoXzKUArhXCIN91ybTbm-22" value="降低特征与特征的相关性" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="455" y="86" width="120" height="30" as="geometry" />
+          <mxGeometry x="556" y="117" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LoXzKUArhXCIN91ybTbm-23" value="保持特征与辛烷值损失的相关性" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="455" y="49" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="LoXzKUArhXCIN91ybTbm-31" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="309.5" y="116" as="sourcePoint" />
-            <mxPoint x="309.5" y="147" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LoXzKUArhXCIN91ybTbm-32" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="309.5" y="208" as="sourcePoint" />
-            <mxPoint x="309.5" y="239" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LoXzKUArhXCIN91ybTbm-33" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="309.5" y="305" as="sourcePoint" />
-            <mxPoint x="309.5" y="336" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LoXzKUArhXCIN91ybTbm-34" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="309.5" y="380" as="sourcePoint" />
-            <mxPoint x="309.5" y="411" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="556" y="80" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LoXzKUArhXCIN91ybTbm-35" value="异常数据" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="455" y="162" width="120" height="30" as="geometry" />
+          <mxGeometry x="556" y="193" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LoXzKUArhXCIN91ybTbm-36" value="重复数据" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="457" y="199" width="120" height="30" as="geometry" />
+          <mxGeometry x="558" y="230" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LoXzKUArhXCIN91ybTbm-47" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LoXzKUArhXCIN91ybTbm-40" target="LoXzKUArhXCIN91ybTbm-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LoXzKUArhXCIN91ybTbm-49" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LoXzKUArhXCIN91ybTbm-40" target="LoXzKUArhXCIN91ybTbm-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LoXzKUArhXCIN91ybTbm-40" value="基于提升树的递归特征消除方法" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="238" y="313" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LoXzKUArhXCIN91ybTbm-41" value="反复构建特征树模型，寻找最优特征子集" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="71" y="298" width="124" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
