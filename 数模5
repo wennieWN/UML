@@ -1,32 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2020-09-20T08:45:22.674Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="dPYxDKZfhDEnERIb5P5K" version="13.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-21T03:33:29.049Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="_3GQY0hDO-RYLzUsL7IN" version="13.6.10" type="github">
   <diagram id="vyJgHEWyaYFnCqklGxTE" name="Page-1">
-    <mxGraphModel dx="786" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="786" dy="465" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2NOXhgVaHFCjzfjCcFtP-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2NOXhgVaHFCjzfjCcFtP-2" target="2NOXhgVaHFCjzfjCcFtP-4">
+        <mxCell id="2NOXhgVaHFCjzfjCcFtP-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2NOXhgVaHFCjzfjCcFtP-2" target="2NOXhgVaHFCjzfjCcFtP-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2NOXhgVaHFCjzfjCcFtP-2" value="分析问题" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="2NOXhgVaHFCjzfjCcFtP-2" value="分析问题" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="112.62" y="100" width="142" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2NOXhgVaHFCjzfjCcFtP-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2NOXhgVaHFCjzfjCcFtP-4" target="2NOXhgVaHFCjzfjCcFtP-7">
+        <mxCell id="2NOXhgVaHFCjzfjCcFtP-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2NOXhgVaHFCjzfjCcFtP-4" target="2NOXhgVaHFCjzfjCcFtP-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2NOXhgVaHFCjzfjCcFtP-4" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34;&quot;&gt;逐步优化策略&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="XdPoPNFwcTVWr6FnX71O-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2NOXhgVaHFCjzfjCcFtP-4" target="2NOXhgVaHFCjzfjCcFtP-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2NOXhgVaHFCjzfjCcFtP-4" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34;&quot;&gt;逐步优化策略&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="112.62" y="160" width="143.25" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2NOXhgVaHFCjzfjCcFtP-5" value="硫含量预测模型" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="510.12" y="140" width="143" height="30" as="geometry" />
+        <mxCell id="XdPoPNFwcTVWr6FnX71O-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2NOXhgVaHFCjzfjCcFtP-7" target="XdPoPNFwcTVWr6FnX71O-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2NOXhgVaHFCjzfjCcFtP-6" value="非操作变量约束条件" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="350" y="50" width="143" height="30" as="geometry" />
+        <mxCell id="XdPoPNFwcTVWr6FnX71O-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2NOXhgVaHFCjzfjCcFtP-7" target="XdPoPNFwcTVWr6FnX71O-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2NOXhgVaHFCjzfjCcFtP-7" value="&lt;font face=&quot;times new roman&quot;&gt;辛烷值（RON）损失优化模型&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="120" y="270" width="188.5" height="30" as="geometry" />
+        <mxCell id="2NOXhgVaHFCjzfjCcFtP-7" value="逐步预测辛烷值损失" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="109.25" y="220" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2NOXhgVaHFCjzfjCcFtP-8" value="基于" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="2NOXhgVaHFCjzfjCcFtP-8" value="基于&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34;&quot;&gt;辛烷值损失优化模型&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="320" y="160" width="143" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XdPoPNFwcTVWr6FnX71O-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XdPoPNFwcTVWr6FnX71O-2" target="XdPoPNFwcTVWr6FnX71O-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XdPoPNFwcTVWr6FnX71O-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XdPoPNFwcTVWr6FnX71O-2" target="XdPoPNFwcTVWr6FnX71O-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XdPoPNFwcTVWr6FnX71O-2" value="逐步预测硫含量" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="109.25" y="280" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XdPoPNFwcTVWr6FnX71O-4" value="基于&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34;&quot;&gt;辛烷值损失预测模型&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="320" y="220" width="143" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XdPoPNFwcTVWr6FnX71O-5" value="基于&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34;&quot;&gt;硫含量预测模型&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="143" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XdPoPNFwcTVWr6FnX71O-8" value="绘制图像" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="109.25" y="340" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
