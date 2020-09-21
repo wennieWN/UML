@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-19T19:27:16.273Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="1q_H9G9pgtf49WthxWnY" version="13.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-21T03:33:26.737Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="UgOKah1b_bEXK1QvzZTU" version="13.6.10" type="github">
   <diagram id="GUoE6AzSmL1gFDP8LjuU" name="Page-1">
-    <mxGraphModel dx="786" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="786" dy="465" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,11 +13,22 @@
         <mxCell id="Rwsrh7HykgO9uYOuPp2p-3" value="分析问题：辛烷值（RON）损失预测模型" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="258" y="80" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Rwsrh7HykgO9uYOuPp2p-18" value="AdaBoost回归模型" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="250" y="160" width="112" height="30" as="geometry" />
+        <mxCell id="Rwsrh7HykgO9uYOuPp2p-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Rwsrh7HykgO9uYOuPp2p-18" target="Rwsrh7HykgO9uYOuPp2p-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Rwsrh7HykgO9uYOuPp2p-20" value="BP神经网络模型" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="414" y="160" width="112" height="30" as="geometry" />
+        <mxCell id="Rwsrh7HykgO9uYOuPp2p-18" value="AdaBoost回归模型" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="250" y="150" width="112" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rwsrh7HykgO9uYOuPp2p-25" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Rwsrh7HykgO9uYOuPp2p-20" target="Rwsrh7HykgO9uYOuPp2p-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="208" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rwsrh7HykgO9uYOuPp2p-20" value="多层感知机模型" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="414" y="150" width="112" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rwsrh7HykgO9uYOuPp2p-23" value="模型评估" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="328" y="210" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
