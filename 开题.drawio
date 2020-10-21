@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-21T14:45:00.108Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="dzdz0oWjiITUX4R4XEJg" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-21T14:47:58.893Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="-fi8mHvztIMZC1-eTsNY" version="13.8.1" type="github">
   <diagram id="tX7SVpQX2thatc8K__2B" name="Page-1">
     <mxGraphModel dx="1310" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -145,8 +145,11 @@
         <mxCell id="17uR8sni8rEMIKlYWQ9r-57" value="多尺度连接" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=9;align=center;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="344" y="470" width="90" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="17uR8sni8rEMIKlYWQ9r-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.483;entryY=-0.026;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;strokeWidth=2;fontSize=9;" edge="1" parent="1" source="17uR8sni8rEMIKlYWQ9r-58" target="17uR8sni8rEMIKlYWQ9r-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="17uR8sni8rEMIKlYWQ9r-58" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="24" y="660" width="986" height="250" as="geometry" />
+          <mxGeometry x="24" y="660" width="986" height="230" as="geometry" />
         </mxCell>
         <mxCell id="17uR8sni8rEMIKlYWQ9r-59" value="基于多模态的3D目标检测算法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontStyle=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="395" y="670" width="230" height="30" as="geometry" />
@@ -183,6 +186,21 @@
         </mxCell>
         <mxCell id="17uR8sni8rEMIKlYWQ9r-71" value="图像特征提取" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=9;align=center;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="227" y="799" width="199" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="17uR8sni8rEMIKlYWQ9r-72" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="251" y="950" width="551" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="17uR8sni8rEMIKlYWQ9r-73" value="推理加速" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="402" y="960" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="17uR8sni8rEMIKlYWQ9r-75" value="TensorRT" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=9;align=center;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1010" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="17uR8sni8rEMIKlYWQ9r-76" value="OpenVINO" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=9;align=center;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1010" width="134" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="17uR8sni8rEMIKlYWQ9r-78" value="..." style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=9;align=center;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="636" y="1010" width="134" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
