@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-19T09:53:16.432Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="MdkG-Z5CIesx_s_iSraL" version="13.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-19T09:57:49.158Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="vCIyrrfJQvUooZzlxGzG" version="13.9.6" type="github">
   <diagram id="b_JdInqbmptc0iD658P6" name="Page-1">
-    <mxGraphModel dx="1026" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -104,6 +104,30 @@
         </mxCell>
         <mxCell id="fs8-hmOpm5YOvJ0PkMpc-38" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;fillColor=#CDA2BE;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="689.25" y="158.5" width="57" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fs8-hmOpm5YOvJ0PkMpc-39" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;fillColor=#D5E8D4;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="601.88" y="415" width="58.75" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fs8-hmOpm5YOvJ0PkMpc-40" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;fillColor=#D5E8D4;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="631.75" y="414.87" width="58.5" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fs8-hmOpm5YOvJ0PkMpc-41" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;fillColor=#FFCCCC;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="674.5" y="414.12" width="57" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fs8-hmOpm5YOvJ0PkMpc-42" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;fillColor=#A9C4EB;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="616.62" y="415" width="58.75" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fs8-hmOpm5YOvJ0PkMpc-43" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;fillColor=#F8CECC;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="689.25" y="414.12" width="57" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="fs8-hmOpm5YOvJ0PkMpc-44" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;&lt;font color=&quot;#949494&quot; style=&quot;font-size: 12px&quot;&gt;34096&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660.63" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fs8-hmOpm5YOvJ0PkMpc-45" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;&lt;font color=&quot;#949494&quot; style=&quot;font-size: 12px&quot;&gt;34096&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660.63" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fs8-hmOpm5YOvJ0PkMpc-46" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;color: rgb(148 , 148 , 148) ; font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;34096&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;color: rgb(148 , 148 , 148)&quot;&gt;同一体素的点云拥有相同特征&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="603.63" y="457" width="174" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
