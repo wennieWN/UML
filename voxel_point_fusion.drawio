@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-20T14:54:34.643Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="Z102AhpprCXCibZjlfxJ" version="13.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-20T14:56:06.302Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="TZya2T12h19A9kEvBhlW" version="13.9.6" type="github">
   <diagram id="_Vdp1WSeutmWLjkR1ZQ9" name="Page-1">
     <mxGraphModel dx="2293" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -228,7 +228,7 @@
         <mxCell id="HEfAnEQ_DSQXCPcIPhqs-142" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;font color=&quot;#949494&quot;&gt;动态体素&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;font color=&quot;#949494&quot;&gt;转换成体素&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="131" y="917" width="82.5" height="36.25" as="geometry" />
         </mxCell>
-        <mxCell id="HEfAnEQ_DSQXCPcIPhqs-143" value="&lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;多模态融合&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="HEfAnEQ_DSQXCPcIPhqs-143" value="&lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;Point Fusion&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-136.5" y="632" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="HEfAnEQ_DSQXCPcIPhqs-151" value="第一个循环" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#949494;fillColor=#FFCCCC;" vertex="1" parent="1">
@@ -236,6 +236,12 @@
         </mxCell>
         <mxCell id="HEfAnEQ_DSQXCPcIPhqs-152" value="&lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;继续提取动态体素的特征&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-136.5" y="93.75" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HEfAnEQ_DSQXCPcIPhqs-153" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#CDA2BE;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="210" width="660" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="HEfAnEQ_DSQXCPcIPhqs-154" value="&lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;Voxel Fusion&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="703.37" y="180" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
