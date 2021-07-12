@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2021-07-12T13:34:01.127Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" version="14.8.0" etag="trYaP8y0Ez81K-1PpVcP" type="github"><diagram id="ml1PYeEhhPZTZ-uIzzCH">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-12T13:59:44.180Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="wS-HeLCri1RzR7wiwSFH" version="14.8.0" type="github">
+  <diagram id="ml1PYeEhhPZTZ-uIzzCH" name="Page-1">
+    <mxGraphModel dx="1026" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1269" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SYHJZ1mB10wvJjzbVK0V-1" value="蒸馏目标" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="50" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SYHJZ1mB10wvJjzbVK0V-2" value="蒸馏特征" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="50" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SYHJZ1mB10wvJjzbVK0V-3" value="其他蒸馏特征" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="50" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SYHJZ1mB10wvJjzbVK0V-5" value="ground truth" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="90" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SYHJZ1mB10wvJjzbVK0V-6" value="feature-based&lt;br&gt;举例说明：&lt;br&gt;ground truth通过坐标映射，获得feature map上的crop feature。&lt;br&gt;&lt;br&gt;fine grained anchor将会得到对应的pred bbox，（这些pred bbox应该都在GT附近）通过坐标映射，获得feature map上的feature。&lt;br&gt;因为此处pred bbox会有很多重叠的，所以此处设计的并不是crop feature，而是对feature map设置mask。&lt;br&gt;&lt;br&gt;general instance本身就是一些列pred bbox，（不过他们不全在GT附近）通过坐标映射，获得feature map上的feature。&lt;br&gt;因为此处general instance之前已经经过NMS操作，因此这里使用crop feature做蒸馏。&lt;br&gt;论文[7]应用RoIAlign，缓解尺度敏感的问题。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="90" width="350" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="SYHJZ1mB10wvJjzbVK0V-8" value="fine grained anchor [5]:&lt;br&gt;目的是提取GT和其周边特征。具体实现是，与GT的IoU大于某阈值的anchor即为fine grained anchor。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="150" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="SYHJZ1mB10wvJjzbVK0V-9" value="general instance [7]:&lt;br&gt;目的是teacher和student预测相差较大的特征进行蒸馏。&lt;br&gt;具体实现是，排除一些ignore pred bbox后，把teacher和student预测的预测差值作为score值，进行NMS操作。最终选topk的pred bbox。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="290" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="SYHJZ1mB10wvJjzbVK0V-10" value="response-based&lt;br&gt;对pred bbox对应的pixel进行蒸馏。&lt;br&gt;举例说明：&lt;br&gt;ground truth通过坐标映射，获得feature map上的crop feature。&lt;br&gt;&lt;br&gt;fine grained anchor将会得到对应的pred bbox，（这些pred bbox应该都在GT附近）通过坐标映射，获得feature map上的feature。&lt;br&gt;因为此处pred bbox会有很多重叠的，所以此处设计的并不是crop feature，而是对feature map设置mask。&lt;br&gt;&lt;br&gt;general instance本身就是一些列pred bbox，（不过他们不全在GT附近）通过坐标映射，获得feature map上的feature。&lt;br&gt;因为此处general instance之前已经经过NMS操作，因此这里使用crop feature做蒸馏。&lt;br&gt;论文[7]应用RoIAlign，缓解尺度敏感的问题。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="310" width="350" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
