@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-13T02:19:15.143Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="ksz4PLYWqn56lZuVWpXz" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-13T02:26:59.661Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="l6wKnSaPc4kuAoHUC9t2" version="14.8.0" type="github">
   <diagram id="ml1PYeEhhPZTZ-uIzzCH" name="Page-1">
-    <mxGraphModel dx="1123" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1269" math="0" shadow="0">
+    <mxGraphModel dx="1769" dy="653" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1527" pageHeight="1569" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,7 +31,7 @@
         <mxCell id="SYHJZ1mB10wvJjzbVK0V-11" value="检测头网络的多分支输出。类似于response-based方法，只是一个发生在feature map上，一个发生在head prediciton上。&lt;br&gt;&lt;br&gt;举例说明：&lt;br&gt;1. &lt;font color=&quot;#ff9933&quot;&gt;fine grained anchor&lt;/font&gt;对应的prediction。&lt;br&gt;&lt;br&gt;2. 当蒸馏目标是&lt;font color=&quot;#ff9933&quot;&gt;general instance&lt;/font&gt;时，分情况讨论。&lt;br&gt;Anchor-based方法，寻找与GIBox IoU大于某阈值的anchor，这些anchor对应的prediction。&lt;br&gt;Anchor-free方法，GIBox里的pixel点对应的prediction。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="582" width="400" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="SYHJZ1mB10wvJjzbVK0V-12" value="计算两两对应pred bbox的距离，对同一组距离进行蒸馏。&lt;br&gt;&lt;br&gt;举例说明：&lt;br&gt;&lt;font color=&quot;#ff9933&quot;&gt;general instance&lt;/font&gt; &amp;amp;&lt;font color=&quot;#9933ff&quot;&gt; feature-based distillation&lt;/font&gt;：&lt;br&gt;计算两两GIBox之间的距离，这里的距离指ROIAlign特征的距离。。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="SYHJZ1mB10wvJjzbVK0V-12" value="计算两两对应pred bbox的距离，对同一组距离进行蒸馏。&lt;br&gt;&lt;br&gt;举例说明：&lt;br&gt;&lt;font color=&quot;#ff9933&quot;&gt;general instance&lt;/font&gt; &amp;amp;&lt;font color=&quot;#9933ff&quot;&gt; feature-based distillation&lt;/font&gt;：&lt;br&gt;计算两两GIBox之间的距离，这里的距离指ROIAlign特征的距离。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="810" y="120" width="360" height="85" as="geometry" />
         </mxCell>
         <mxCell id="SYHJZ1mB10wvJjzbVK0V-13" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; display: inline ; float: none&quot;&gt;fine grained anchor [5]:&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
