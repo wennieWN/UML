@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T13:15:46.799Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="UoLNHwUiW2p5su3-5ut-" version="15.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T13:27:23.774Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="HMbcHAaKBIAfmX63lxxs" version="15.0.3" type="github">
   <diagram id="I71OE4nxUPz9BCzFAyAM" name="Page-1">
     <mxGraphModel dx="3855" dy="3228" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1269" background="none" math="0" shadow="0">
       <root>
@@ -486,6 +486,9 @@
         </mxCell>
         <mxCell id="x_obFE7ms34Sc6ZjcU9q-4" value="体素坐标" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-2835" y="-2676" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="x_obFE7ms34Sc6ZjcU9q-5" value="Conv2d(64, 32)&lt;br&gt;BatchNorm2d&lt;br&gt;ReLU" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2904" y="-2496" width="108" height="58" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
