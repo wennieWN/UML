@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-09-25T14:59:25.404Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ji6BQkAKlk7DoTWRl2w-" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-25T15:00:56.493Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="4msgYl4ObsGXa0R0RPzw" version="18.0.2" type="github">
   <diagram id="4wjyeySnkvLfih8uQl-l" name="Page-1">
-    <mxGraphModel dx="3492" dy="1285" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1527" pageHeight="1569" math="0" shadow="0">
+    <mxGraphModel dx="2956" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1527" pageHeight="1569" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="MsRUurbuokPV0QSmwj4z-70" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;fillColor=none;strokeColor=#000099;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="1278" y="440" width="850" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="MsRUurbuokPV0QSmwj4z-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;TransformerEncoderLayer&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="10" width="230" height="30" as="geometry" />
+        <mxCell id="MsRUurbuokPV0QSmwj4z-1" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;TransformerEncoderLayer&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="30" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MsRUurbuokPV0QSmwj4z-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="MsRUurbuokPV0QSmwj4z-2" target="MsRUurbuokPV0QSmwj4z-3">
           <mxGeometry relative="1" as="geometry" />
